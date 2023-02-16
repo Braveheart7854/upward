@@ -3,12 +3,12 @@ module upward
 require (
 	github.com/pkg/errors v0.8.1
 	github.com/spf13/viper v1.6.1
-	golang.org/x/crypto v0.0.0-20190605123033-f99c8df09eb5
+	golang.org/x/crypto v0.0.0-20220128200615-198e4374d7ed
 )
 
 replace (
 	cloud.google.com/go => github.com/googleapis/google-cloud-go v0.41.0
-	golang.org/x/crypto => github.com/golang/crypto v0.0.0-20190701094942-4def268fd1a4
+	golang.org/x/crypto => github.com/golang/crypto v0.0.0-20220128200615-198e4374d7ed
 	golang.org/x/exp => github.com/golang/exp v0.0.0-20190627132806-fd42eb6b336f
 	golang.org/x/image => github.com/golang/image v0.0.0-20190703141733-d6a02ce849c9
 	golang.org/x/lint => github.com/golang/lint v0.0.0-20190409202823-959b441ac422
@@ -26,3 +26,5 @@ replace (
 	google.golang.org/genproto => github.com/google/go-genproto v0.0.0-20190708153700-3bdd9d9f5532
 	google.golang.org/grpc => github.com/grpc/grpc-go v1.22.0
 )
+
+go 1.13
